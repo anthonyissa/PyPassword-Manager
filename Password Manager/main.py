@@ -265,6 +265,7 @@ class TestApp:
 if __name__ == '__main__':
     import tkinter as tk
     root = tk.Tk()
+    root.resizable(False, False)
     app = TestApp(root)
     app.run()
 
